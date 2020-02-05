@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Clock--ie</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      if (typeof Object.assign !== 'function') {
+        document.getElementsByTagName('body')[0].innerHTML = [
+          '<div style="max-width: 600px; margin: 30px auto; padding: 30px;">',
+          '<h2>Ooops... parece que estás usando un navegador muy antiguo.</h2>',
+          '<p>El sitio web que estás tratando de ver requiere un navegador más moderno.</p>',
+          '<p>Algunos navegadores modernos (y gratuitos):</p>',
+          '<ul>',
+          '<li><a href="http://www.google.com/chrome">Chrome</a></li>',
+          '<li><a href="http://www.firefox.com/">Firefox</a></li>',
+          '</ul>',
+          '</div>'
+        ].join('');
+      }
+    </script>
+  </body>
+</html>
